@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#header {
+    float: right;
+}
+
+header {
+    background-color: rgba(5, 17, 46, 0.9);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#first h1 {
+    font-size: 80px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#first {
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+#first h5 {
+    border-bottom: 4px solid #d5124e;
+    width: 310px!important;
+}
+
+#one {
+    background-color: rgba(5, 17, 46, 0.9);
+    color: white;
+    height: 80vh;
+}
+
+#two {
+    background-color: rgba(5, 17, 46, 0.9);
+    color: white;
+}
+
+#two p {
+    color: #709be7;
+}
+
+#log {
+    color: #ffffff;
+    border: 2px solid #d5124e;
+    border-radius: 50px;
+    background-color: rgba(213, 18, 78, 0.15);
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+}
+
+#sign {
+    color: #ffffff;
+    border: 2px solid #2176ff;
+    border-radius: 50px;
+    background-color: rgba(33, 118, 255, 0.15);
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+}
+
+#blue {
+    background-color: rgba(6, 24, 67, 0.9);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#white {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+#three img {
+    width: 100px;
+}
+
+#container {
+    background-color: rgba(6, 24, 67, 0.9);
+}
+
+#four {
+    background-color: #f7f8fb !important;
+}
+
+@media(max-width: 600px) {
+    #first {
+        margin-left: 10px;
+        text-align: center;
+    }
+    #first h1 {
+        font-size: 40px;
+    }
+    .row {
+        margin-right: 0px;
+    }
+    #one {
+        height: 60vh;
+    }
+}
